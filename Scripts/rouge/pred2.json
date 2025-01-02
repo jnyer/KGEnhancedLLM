@@ -1,0 +1,16 @@
+[
+    {
+        "name": "John Doeeeeee",
+        "birthdate": "1990-01-01",
+        "address": "123 Main Street, Springfielddsfsdf",
+        "occupation": "Software Engineer",
+        "skills": ["Python", "Machine Learning", "Data Analysis"]
+    },
+    {
+        "name": "Jane Smith2222",
+        "birthdate": "1985-05-15",
+        "address": "456 Elm Street, Metropolisdfdsdvd",
+        "occupation": "Data Scientistcvcv",
+        "skills": ["R", "Statistics", "Data Visualization"]
+    }
+]

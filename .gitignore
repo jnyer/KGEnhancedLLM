@@ -6,3 +6,7 @@ THUDM/
 
 # 缓存
 cache/
+
+# 过大单体文件
+CnDbpedia.spo
+google_model.bin

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Jon Doe",
+        "birthdate": "1990-01-01",
+        "address": "123 Main St., Springfield",
+        "occupation": "Senior Software Engineer",
+        "skills": ["Python", "ML", "Data Analytics"]
+    },
+    {
+        "name": "Jane Smyth",
+        "birthdate": "1985-05-15",
+        "address": "456 Elm St., Metropolis",
+        "occupation": "Data Scientist",
+        "skills": ["R", "Statistics", "Data Viz"]
+    }
+]
