@@ -1,0 +1,8 @@
+# 导出的模型文件
+fine_tunning_model/
+
+# chatGLM 源码
+THUDM/
+
+# 缓存
+cache/
