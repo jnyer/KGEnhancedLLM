@@ -1,0 +1,29 @@
+# config.yaml
+
+data:
+  file_path: '/home/workspace/jnyao/Scripts/KGEmbedding/data/CnDbpedia.spo'
+
+logging:
+  log_file: '/home/workspace/jnyao/Scripts/KGEmbedding/logs/training.log'
+
+model:
+  save_dir: '/home/workspace/jnyao/Scripts/KGEmbedding/models'
+  model_name: 'TransE'  # 可以选择其他模型，如 DistMult, ComplEx, RotatE 等
+  embedding_dim: 200
+  scoring_fct_norm: 1
+
+training:
+  epochs: 100
+  batch_size: 128
+  learning_rate: 0.001
+  margin: 1.0
+
+dataset_split:
+  train: 0.8
+  validation: 0.1
+  test: 0.1
+
+device:
+  # 多卡训练示例，假设有两个GPU
+  # 如果只有一个GPU，可以设置为 'cuda'
+  devices: 'cuda:3'

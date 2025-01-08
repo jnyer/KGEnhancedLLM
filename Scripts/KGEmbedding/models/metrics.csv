@@ -1,0 +1,32 @@
+type,step,key,value
+parameter,0,dataset,<user defined>
+parameter,0,training,<user defined>
+parameter,0,testing,<user defined>
+parameter,0,validation,<user defined>
+parameter,0,model,TransE
+parameter,0,model_kwargs.embedding_dim,200
+parameter,0,model_kwargs.scoring_fct_norm,1
+parameter,0,model_kwargs.random_seed,42
+parameter,0,model_kwargs.loss,"MarginRankingLoss(
+  (margin_activation): ReLU()
+)"
+parameter,0,model_kwargs.power_norm,False
+parameter,0,model_kwargs.entity_initializer,<function xavier_uniform_ at 0x7fb21c90a0c0>
+parameter,0,model_kwargs.entity_constrainer,<function normalize at 0x7fb231151f80>
+parameter,0,model_kwargs.relation_initializer,<pykeen.utils.compose object at 0x7fb21ce24830>
+parameter,0,model_kwargs.relation_constrainer,
+parameter,0,model_kwargs.regularizer,
+parameter,0,model_kwargs.regularizer_kwargs,
+parameter,0,loss_kwargs,
+parameter,0,regularizer_kwargs,
+parameter,0,optimizer,Adam
+parameter,0,optimizer_kwargs.lr,0.001
+parameter,0,optimizer_kwargs.betas,"(0.9, 0.999)"
+parameter,0,optimizer_kwargs.eps,1e-08
+parameter,0,optimizer_kwargs.weight_decay,0
+parameter,0,optimizer_kwargs.amsgrad,False
+parameter,0,optimizer_kwargs.maximize,False
+parameter,0,optimizer_kwargs.foreach,
+parameter,0,optimizer_kwargs.capturable,False
+parameter,0,optimizer_kwargs.differentiable,False
+parameter,0,optimizer_kwargs.fused,
